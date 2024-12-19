@@ -10,11 +10,11 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-font mt-3 mb-3" id="nav">
+    <nav class="navbar navbar-expand-lg navbar-font mt-4 mb-3" id="nav">
         <div class="container">
             <div class="holadok-logo">
                 <img src="assets/img/holadok_logo.png" alt="Holadok">
-                <a class="navbar-brand" href="#">Holadok</a>
+                <a class="navbar-brand fw-bold" href="#">Holadok</a>
             </div>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -23,7 +23,7 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#features">Features</a>
@@ -41,10 +41,10 @@
                 </ul>
                 <ul class="navbar-nav ms-auto">
                     <li>
-                        <a class="nav-link" href="#login">Login</a>
+                        <a class="nav-link fw-bold me-4" href="#login">Login</a>
                     </li>
                     <li>
-                        <a class="btn btn-outline-dark" href="#book-now">Book Now</a>
+                        <a class="btn btn-outline-dark fw-bold" href="#book-now">Book Now</a>
                     </li>
                 </ul>
             </div>
@@ -54,15 +54,37 @@
     <main>
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
-                    <div class="booking"></div>
-                </div>
-                <div class="col-md-2">
-                    <div class="quotes"></div>
-                </div>
-                <div class="col-md-6">
-                    <div class="photo ms-5">
-                        <img src="assets/img/doctor.png" alt="doctor Jane Doe">
+                <div class="main-content d-flex">
+                    <div class="col-md-5">
+                        <div class="booking p-0">
+                            <h1 class="fw-medium">Get the healthcare you need, when you need it.</h1>
+                            <p>Manage all of your healthcare needs in one convenient place – from booking appointments
+                                to
+                                tracking your health history.</p>
+                            <a class="booking-button btn" href="#book-appointment">Book an Appointment</a>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <div class="quotes position-relative ms-3">
+                            <div class="quotes-top d-flex align-items-start column-gap-2">
+                                <img src="assets/img/janedoe.png" alt="Jane Doe">
+                                <p class="fw-semibold mt-1">Jane Doe</p>
+                                <div class="quotation ms-auto">
+                                    <img src="assets/img/quotation.png" alt="quotation">
+                                </div>
+                            </div>
+                            <div class="quotes-content">
+                                <p class="fw-normal">“The doctor appointment app has been great for me. Scheduling
+                                    appointments and
+                                    getting medication reminders is much easier, and I love the option for virtual
+                                    consultations. I'd recommend this app to others.”</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="photo">
+                            <img src="assets/img/doctor.png" alt="doctor Jane Doe">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -72,7 +94,7 @@
     <footer>
         <div class="container">
             <div class="row">
-                <div class="footer-content d-flex justify-content-center flex-column flex-md-row column-gap-3 p-4">
+                <div class="footer-content d-flex justify-content-center flex-column flex-md-row column-gap-3 mb-2">
                     <div class="col-md-4">
                         <div class="scheduling d-flex column-gap-3">
                             <div class="scheduling-logo">
