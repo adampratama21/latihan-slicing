@@ -4,11 +4,11 @@
 
 ## Tingkat kesulitan (berdasarkan website tersebut) :
 
-- Intermediate
+- Beginner
 
 ## Untuk melihat sumber latihan ini, dapat kunjungi link berikut :
 
-- https://codedesign.dev/challenge/omah
+- https://codedesign.dev/challenge/twitter-embed
 
 ## Tech Stack :
 
