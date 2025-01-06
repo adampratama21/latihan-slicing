@@ -23,10 +23,6 @@ span.red-dot {
   margin-left: -5px;
 }
 
-.nav-item {
-  font-size: 16px;
-}
-
 a.login-button {
   background-color: #f58634;
   color: #ffffff;
@@ -74,6 +70,7 @@ a.login-button {
   color: #ffffff;
   width: 168px;
   height: 80px;
+  margin-top: 16px;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
@@ -85,4 +82,8 @@ a.login-button {
   width: 894px;
   height: 112px;
   margin-top: -56px;
+}
+
+select option {
+  color: #828282;
 }
