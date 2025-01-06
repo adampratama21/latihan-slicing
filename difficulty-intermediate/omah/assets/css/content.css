@@ -12,3 +12,78 @@ body {
   min-height: 100vh;
   margin: 0 auto;
 }
+
+a.navbar-brand {
+  font-size: 24px;
+}
+
+span.red-dot {
+  color: #f58634;
+  font-size: 30px;
+  margin-left: -5px;
+}
+
+a.login-button {
+  background-color: #f58634;
+  color: #ffffff;
+  width: 134px;
+  height: 62px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.orange-line {
+  width: 38px;
+  height: 3px;
+  background-color: #f58634;
+}
+
+.hero-header {
+  width: 1170px;
+  height: 192px;
+}
+
+.hero-title {
+  color: #1b2021;
+  font-size: 64px;
+  letter-spacing: 0.64px;
+}
+
+.hero-desc {
+  color: #828282;
+  width: 434px;
+  font-size: 20px;
+  letter-spacing: 0.2px;
+  line-height: 34px;
+}
+
+.search {
+  width: 894px;
+  height: 112px;
+}
+
+.search-button {
+  background-color: #f58634;
+  color: #ffffff;
+  width: 168px;
+  height: 80px;
+  margin-top: 16px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}
+
+.card {
+  width: 894px;
+  height: 112px;
+  margin-top: -56px;
+}
+
+select option {
+  color: #828282;
+}
