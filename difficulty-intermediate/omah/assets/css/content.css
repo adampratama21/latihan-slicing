@@ -63,3 +63,20 @@ a.login-button {
   letter-spacing: 0.2px;
   line-height: 34px;
 }
+
+.search {
+  width: 894px;
+  height: 112px;
+}
+
+.search-button {
+  background-color: #f58634;
+  color: #ffffff;
+  width: 168px;
+  height: 80px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+}

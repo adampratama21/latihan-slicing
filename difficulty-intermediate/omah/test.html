@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex Row Dropdown Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f4f4f9;
+        }
+
+        form {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+            gap: 20px;
+            /* Jarak antar dropdown */
+        }
+
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        label {
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        select {
+            width: 150px;
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            background-color: #fff;
+        }
+
+        select:focus {
+            outline: none;
+            border-color: #007bff;
+            box-shadow: 0px 0px 4px rgba(0, 123, 255, 0.5);
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            align-self: center;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+    <form>
+        <div class="form-group">
+            <label for="menu1">Menu 1</label>
+            <select id="menu1" name="menu1">
+                <option value="1">Option 1</option>
+                <option value="2">Option 2</option>
+                <option value="3">Option 3</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="menu2">Menu 2</label>
+            <select id="menu2" name="menu2">
+                <option value="a">Option A</option>
+                <option value="b">Option B</option>
+                <option value="c">Option C</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="menu3">Menu 3</label>
+            <select id="menu3" name="menu3">
+                <option value="x">Option X</option>
+                <option value="y">Option Y</option>
+                <option value="z">Option Z</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="menu4">Menu 4</label>
+            <select id="menu4" name="menu4">
+                <option value="i">Option I</option>
+                <option value="ii">Option II</option>
+                <option value="iii">Option III</option>
+            </select>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>
