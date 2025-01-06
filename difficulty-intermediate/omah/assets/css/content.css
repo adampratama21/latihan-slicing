@@ -80,3 +80,9 @@ a.login-button {
   -ms-border-radius: 0;
   -o-border-radius: 0;
 }
+
+.card {
+  width: 894px;
+  height: 112px;
+  margin-top: -56px;
+}
