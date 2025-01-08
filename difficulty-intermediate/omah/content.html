@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Halaman Content</title>
     <link rel="stylesheet" href="assets/vendor/bootstrap-5.3.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/vendor/fontawesome-free-6.5.2-web/css/all.min.css">
     <link rel="stylesheet" href="assets/css/content.css">
 </head>
 
@@ -115,55 +116,54 @@
     </section>
 
     <section class="latest">
-        <div class="latest-header">
-            <div class="d-flex justify-content-between align-items-center p-3">
-                <h2 class="mb-0">The latest</h2>
-                <div>
-                    <button class="btn text-dark">For sale</button>
-                    <button class="btn text-muted">To rent</button>
+        <div class="row">
+            <div class="latest-header d-flex justify-content-start align-items-center p-3">
+                <div class="latest-link d-flex justify-content-start align-items-start  column-gap-5">
+                    <h2 class="mb-0 fw-medium">The latest</h2>
+                    <a href="#" class="for-sale text-decoration-none">For sale</a>
+                    <a href="#" class="to-rent text-decoration-none">To rent</a>
                 </div>
-                <a href="#" class="text-decoration-none text-dark">View all</a>
+                <a href="#" class="view-all text-decoration-underline fw-medium ms-auto">View all</a>
             </div>
         </div>
         <div class="latest-card">
             <div class="row">
                 <div class="col-md-4">
-                    <div class="like-buton">
-                        <img src="./assets/img/icons/like_icon.png" alt="like icon">
-                    </div>
                     <div class="card">
-
                         <img src="./assets/img/latest_card_1.png" class="card-img-top" alt="latest image 1">
+                        <button class="like-btn">
+                            <i class="fa-regular fa-heart m-auto my-1"></i>
+                        </button>
                         <div class="card-body">
-                            <h5 class="card-title">Orange House</h5>
+                            <h5 class="card-title fw-medium">Orange House</h5>
                             <p class="card-text">Jl Klapanunggal, cileungsi, bogor</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                            <p class="house-price fw-medium">$1,435,000</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <img src="./assets/img/latest_card_2.png" class="card-img-top" alt="latest image 2">
+                        <button class="like-btn">
+                            <i class="fa-regular fa-heart m-auto my-1"></i>
+                        </button>
                         <div class="card-body">
-                            <h5 class="card-title">Whtie House</h5>
+                            <h5 class="card-title fw-medium">Whtie House</h5>
                             <p class="card-text">Jl Klapanunggal, cileungsi, bogor</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                            <p class="house-price fw-medium">$1,200,500</p>
                         </div>
                     </div>
                 </div>
                 <div class="col-md-4">
                     <div class="card">
                         <img src="./assets/img/latest_card_3.png" class="card-img-top" alt="latest image 3">
+                        <button class="like-btn">
+                            <i class="fa-regular fa-heart m-auto my-1"></i>
+                        </button>
                         <div class="card-body">
-                            <h5 class="card-title">Green House</h5>
+                            <h5 class="card-title fw-medium">Green House</h5>
                             <p class="card-text">Jl Klapanunggal, cileungsi, bogor</p>
-                        </div>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
+                            <p class="house-price fw-medium">$2,300,500</p>
                         </div>
                     </div>
                 </div>
