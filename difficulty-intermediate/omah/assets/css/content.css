@@ -80,10 +80,16 @@ button.search-button:hover {
   box-shadow: 3px 3px 7px black;
 }
 
-.card {
+.search-card {
   width: 894px;
   height: 112px;
   margin-top: -56px;
+  margin-left: -18.5px;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
 }
 
 select {
@@ -99,4 +105,14 @@ select {
 select:focus {
   outline: none;
   border-color: #007bff;
+}
+
+button.like-button {
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
 }
