@@ -84,6 +84,13 @@ a.login-button {
   margin-top: -56px;
 }
 
-select option {
+select {
+  color: #828282;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0px;
+  border-bottom: 2px solid #ccc;
+  background-color: #fff;
+  border-radius: 0;
   color: #828282;
 }
