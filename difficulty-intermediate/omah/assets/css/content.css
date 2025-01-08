@@ -113,10 +113,6 @@ select:focus {
   color: #1b2021;
 }
 
-.latest-header a {
-  font-size: 24px;
-}
-
 .latest-header a.for-sale {
   color: #f58634;
 }
@@ -125,8 +121,9 @@ select:focus {
   color: #828282;
 }
 
-.latest-header a.view-all {
+a.view-all {
   color: #1b2021;
+  font-size: 24px;
 }
 
 .latest-link {
@@ -171,11 +168,41 @@ select:focus {
   color: #f58634;
 }
 
-h5.card-title {
+.latest-card h5.card-title {
   font-size: 32px;
 }
 
-p.card-text {
+.latest-card p.card-text {
   color: #828282;
   letter-spacing: 0.16px;
+}
+
+.review-card {
+  overflow-x: scroll;
+}
+
+.review-header h2 {
+  width: 550px;
+  font-size: 40px;
+  letter-spacing: 0.4px;
+  color: #1b2021;
+}
+
+p.review-text {
+  font-size: 24px;
+  letter-spacing: 0.24px;
+}
+
+.blog-header h2 {
+  width: 358px;
+}
+
+.blog p.card-title {
+  font-size: 24px;
+  letter-spacing: 0.24px;
+  color: #1b2021;
+}
+
+.blog p.card-text {
+  color: #828282;
 }
