@@ -67,41 +67,46 @@
             <div class="row">
                 <div class="col-md-10 ms-auto me-3">
                     <div class="card">
-                        <form class="d-flex align-items-center justify-content-evenly">
+                        <form class="d-flex align-items-center justify-content-evenly text-start my-2">
                             <div class="form-group d-flex flex-column">
-                                <label for="menu1" class="fw-medium">Select city</label>
-                                <select id="menu1" name="menu1">
-                                    <option value="1">Option 1</option>
-                                    <option value="2">Option 2</option>
-                                    <option value="3">Option 3</option>
+                                <label for="city" class="fw-medium">Select city</label>
+                                <select id="city" name="city" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="jakarta">Jakarta</option>
+                                    <option value="bogor">Bogor</option>
+                                    <option value="depok">Depok</option>
                                 </select>
                             </div>
                             <div class="form-group d-flex flex-column">
-                                <label for="menu2" class="fw-medium">Price</label>
-                                <select id="menu2" name="menu2">
-                                    <option value="a">Option A</option>
-                                    <option value="b">Option B</option>
-                                    <option value="c">Option C</option>
+                                <label for="price" class="fw-medium">Price</label>
+                                <select id="price" name="price" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="1000-2000">$1000 - $2000</option>
+                                    <option value="2000-3000">$2000 - $3000</option>
+                                    <option value="3000-4000">$3000 - $4000</option>
                                 </select>
                             </div>
                             <div class="form-group d-flex flex-column">
-                                <label for="menu3" class="fw-medium">Rooms</label>
-                                <select id="menu3" name="menu3">
-                                    <option value="x">Option X</option>
-                                    <option value="y">Option Y</option>
-                                    <option value="z">Option Z</option>
+                                <label for="rooms" class="fw-medium">Rooms</label>
+                                <select id="rooms" name="rooms" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="3-rooms">3 rooms</option>
+                                    <option value="4-rooms">4 rooms</option>
+                                    <option value="5-rooms">5 rooms</option>
                                 </select>
                             </div>
                             <div class="form-group d-flex flex-column">
-                                <label for="menu4" class="fw-medium">Footage</label>
-                                <select id="menu4" name="menu4">
-                                    <option value="i">Option I</option>
-                                    <option value="ii">Option II</option>
-                                    <option value="iii">Option III</option>
+                                <label for="footage" class="fw-medium">Footage</label>
+                                <select id="footage" name="footage" required>
+                                    <option value="" disabled selected>Select an option</option>
+                                    <option value="2-footage">2 footage</option>
+                                    <option value="3-footage">3 footage</option>
+                                    <option value="4-footage">4 footage</option>
                                 </select>
                             </div>
-                            <a href="#"
-                                class="btn search-button d-flex justify-content-center align-items-center">Search</a>
+                            <button type="submit"
+                                class="btn search-button d-flex justify-content-center align-items-center">Search
+                            </button>
                         </form>
                     </div>
                 </div>

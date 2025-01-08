@@ -60,22 +60,24 @@ a.login-button {
   line-height: 34px;
 }
 
-.search {
-  width: 894px;
-  height: 112px;
-}
-
 .search-button {
   background-color: #f58634;
-  color: #ffffff;
+  color: #fff;
   width: 168px;
   height: 80px;
-  margin-top: 16px;
+  margin-top: 6px;
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
   -ms-border-radius: 0;
   -o-border-radius: 0;
+}
+
+button.search-button:hover {
+  background-color: #f58634;
+  opacity: 90%;
+  color: #fff;
+  box-shadow: 3px 3px 7px black;
 }
 
 .card {
@@ -86,11 +88,15 @@ a.login-button {
 
 select {
   color: #828282;
-  padding: 10px;
   border-radius: 5px;
   border: 0px;
   border-bottom: 2px solid #ccc;
   background-color: #fff;
   border-radius: 0;
   color: #828282;
+}
+
+select:focus {
+  outline: none;
+  border-color: #007bff;
 }
